@@ -1,27 +1,91 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cat Gallery</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Yellow Lego Heart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #fdd835;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #fff;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #fdd835;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        
+
+#heart { 
+    position: relative; 
+    width: 100px; 
+    height: 90px; 
+} 
+
+#heart:before, #heart:after { 
+    position: absolute; 
+    content: ""; 
+    left: 50px; 
+    top: 0; 
+    width: 50px; 
+    height: 80px; 
+    background: red; 
+    border-radius: 50px 50px 0 0; 
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%; 
+} 
+
+#heart:after { 
+    left: 0; 
+    transform: rotate(45deg); 
+    transform-origin :100% 100%; 
+}
+}
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to the Cat Gallery!</h1>
-  </header>
-  <main>
-    <section class="gallery">
-      <img src="https://placekitten.com/300/200" alt="Cute Cat 1">
-      <img src="https://placekitten.com/301/200" alt="Cute Cat 2">
-      <img src="https://placekitten.com/302/200" alt="Cute Cat 3">
-      <img src="https://placekitten.com/303/200" alt="Cute Cat 4">
-      <img src="https://placekitten.com/304/200" alt="Cute Cat 5">
-      <img src="https://placekitten.com/305/200" alt="Cute Cat 6">
+    <header>
+        <h1>The Big Yellow Lego Heart</h1>
+    </header>
+    <section>
+        <p>The Big Yellow Lego Heart is a symbol of creativity and love for Lego enthusiasts around the world. Built entirely out of Lego bricks, it showcases the endless possibilities of what can be achieved with imagination and skill.</p>
+        <div class="big heart">
+            <img src="big-yellow-lego-heart.jpg" alt="Big Yellow Lego Heart">
+        </div>
+        <h2>About the Creation</h2>
+        <p>This stunning Lego masterpiece was crafted using thousands of yellow Lego bricks. Each piece was carefully placed to form a heart that stands tall, inspiring both children and adults to think big and build bigger!</p>
+        <h2>Why the Color Yellow?</h2>
+        <p>Yellow is often associated with happiness, energy, and creativity. It's the perfect color to represent the joy and passion of the Lego community.</p>
     </section>
-  </main>
-  <footer>
-    <p>© 2024 Cat Gallery | Made with ❤️</p>
-  </footer>
+    <footer>
+        <p>© 2024 Big Yellow Lego Heart | Made with creativity and love</p>
+    </footer>
 </body>
 </html>
